@@ -1,0 +1,66 @@
+.head{border-bottom: 1px solid #ccc;}
+input{outline: none;}
+#header{padding: 40px 0;width: 1200px;margin:0 auto;}
+.mian_bg{width: 100%;background: #f9fbfd}
+#main{width: 1200px;margin:0 auto;background:url(../img/login_bg.png) no-repeat 80px 60px;height: 660px}
+#form{padding: 20px;border:1px solid #ccc;width: 390px;float: right;margin-right: 80px;background: #fff;margin-top: 60px}
+#form h2{line-height: 30px;border-left: 3px solid #7d589d;font-size: 16px;font-weight: 400;text-indent: 10px;margin-bottom: 24px}
+#form .login_title{border-bottom: 1px solid #7d589d;width: 350px;margin:0 auto;margin-bottom: 50px}
+#form .login_title a{display: inline-block;width: 70px;height: 28px;line-height: 28px;text-align: center;margin-left: 36px;font-size: 16px;}
+#form .login_title a.active{background: url(../img/login_arr.png) no-repeat 0 18px;}
+#change{position: relative;}
+#change p em{border:1px solid #ccc;display: inline-block;}
+#change p em.active{border:1px solid #e14958;}
+#change p{width: 320px;margin: 0 auto;position: relative;height: 39px;margin-top: 20px}
+#change p span{display: inline-block;width: 38px;height: 37px;float: left;border-right: 1px solid #ccc;}
+#change p input{width: 278px;height: 37px; float: left;}
+#change p i{position: absolute;padding:2px 5px;left: 30px;top:40px;background: #000;border-radius: 5px;z-index: 999;line-height: 25px;color: #fff;display: none;}
+#change #user span{background: url(../img/ico-login.png) no-repeat -20px 11px;}
+#change #password span{background: url(../img/ico-login.png) no-repeat -21px -19px;}
+#login b{display: block;margin-left: 298px ;margin-top: 20px}
+#login #login_btn{width: 320px;background: #e14958;height: 40px;font-size: 16px;font-weight: 700;color: #fff;margin-left: 34px;}
+#change #Ruser span{background: url(../img/ico-login.png) no-repeat -20px 11px;}
+#change #Rpassword span{background: url(../img/ico-login.png) no-repeat -21px -19px;}
+#register{display: none;}
+#change #register #code input{width: 145px ;}
+#change #register #code b{display: block;width: 100px;height: 28px;float: right;background: #ccc;margin-top: 5px;text-align: center;font-size: 20px}
+#change #register #code span{background: url(../img/ico-login.png) no-repeat -20px -19px;}
+#change #register #phonecode input{width: 145px;}
+#change #register #phonecode b{display: block;float: right;width: 100px;height: 28px;line-height: 28px;text-align: center;background: #f99;color: #fff;margin-top: 5px}
+#change #register #phonecode span{background: url(../img/ico-login.png) no-repeat -20px -48px;}
+#register #tip{margin-top: 5px;height: 20px;line-height: 20px}
+#register h4{width: 320px;height: 20px;line-height: 20px;margin-left: 34px;margin-top: 10px}
+#register #register_btn{width: 320px;height: 40px;font-size: 16px;font-weight: 700;color: #fff;background: #ccc;margin-left: 34px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+#title{width: 1200px;margin:0 auto;}
+#title h1{float: left;margin-top: 20px;}
+#title .process{float: right;margin-top: 30px}
+
+
+#main{width: 1200px;margin:0 auto;margin-top: 40px;margin-bottom: 20px}
+#main .goods_title{width: 1178px;height: 18px;border: 1px solid #ccc;padding: 10px}
+#main li{width: 155px;float: left;line-height: 18px;text-align: center;}
+#main .goods{width: 400px}
+#main .cart_goods{padding: 10px;border: 1px solid #ccc;margin-top: 20px}
+#main input{float: left;}
+#main .cart_goods .img{width: 80px;height: 80px;float: left;margin-left: 30px}
+#main .cart_goods .img img{width: 100%;height: 100%}
+#main .cart_goods .price{font-size: 16px;font-weight: 700}
+#main .cart_goods .Total_price{font-size: 16px;font-weight: 700;color:#e14958;}
+#main #Settlement{padding: 10px;padding-right: 0;border:1px solid #ccc;background: #f2f2f2;margin-top: 20px}
+#main #Settlement .goSettlement{width: 155px;height: 40px;background: #e14958;color: #fff;text-align: center;line-height: 40px}
+#main i{font-size: 16px;font-weight: 700;color:#e14958;}
+#main .cut,.add,.sums{float: left;border: 1px solid #ccc;width: 20px;height: 20px;text-align: center;line-height: 20px;}
+#main .cut{margin-left: 45px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

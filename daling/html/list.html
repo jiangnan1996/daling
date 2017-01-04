@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+	<link rel="stylesheet" href="../css/same.css">
+	<link rel="stylesheet" href="../css/list.css">
+	<link rel="stylesheet" href="../css/pagination.css">
+</head>
+<body>
+	<div id="head">
+		
+	</div>
+	<div id="main">
+		<div class="title">
+			<ul class="search clear">
+				<li class="index">
+					<a href=""></a>
+					<span></span>
+				</li>
+				<li> 
+					<div class="select">
+						<b class="select7">极致美护</b>
+						<span></span>
+						<div class="select_none">
+							<ul>
+								<li>极致美护</li>
+								<li>全球零食</li>
+								<li>创意生活</li>
+								<li>时尚配饰</li>
+								<li>尖货女装</li>
+								<li>3C家电</li>
+							</ul>
+						</div>
+					</div>
+					<span></span>
+				</li>
+				
+				<li class="search_input" id="before">
+					<input type="text" id="search_text">
+					<input type="button" id="search_btn">
+				</li>
+			</ul>
+		</div>
+		<div id="condition" class="clear">
+			<ul>
+				<li>
+					<dl  class="classify1">
+						<dt>达令力荐:</dt>
+						<dd id="change1">
+							<input type="checkbox"><a href="javascript:;">告别干燥深补水</a>
+							<input type="checkbox"><a href="javascript:;">轻松卸妆神器</a>
+							<input type="checkbox"><a href="javascript:;">清新女神妆</a>
+							<input type="checkbox"><a href="javascript:;">晒不黑的秘密</a>
+							<p><input type="button" class="button confirm" value="确定"><input type="button" class="button cancel" value="取消"></p>
+						</dd>
+					</dl>
+					<div>
+						<a href="javascript:;" class="select_more" id="click_more1"><span>+</span>多选</a>
+					</div>
+				</li>
+				<li>
+					<dl  class="classify">
+						<dt>分类:</dt>
+						<dd>
+							<a href="javascript:;">个护保健</a>
+							<a href="javascript:;">彩妆香氛</a>
+							<a href="javascript:;">面部护肤</a>
+							
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl  class="classify1">
+						<dt>功效:</dt>
+						<dd id="change2">
+						<input type="checkbox"><a href="javascript:;">淡化唇色</a>
+						<input type="checkbox"><a href="javascript:;">深层清洁</a>
+						<input type="checkbox"><a href="javascript:;">遮瑕</a>
+						<input type="checkbox"><a href="javascript:;">清新</a>
+						<input type="checkbox"><a href="javascript:;">去黑头</a>
+						<input type="checkbox"><a href="javascript:;">提亮肤色</a>
+						<input type="checkbox"><a href="javascript:;">祛斑</a>
+						<input type="checkbox"><a href="javascript:;">抗氧化</a>
+						<input type="checkbox"><a href="javascript:;">定妆</a>
+						<input type="checkbox"><a href="javascript:;">缓解眼疲劳</a>
+						<input type="checkbox"><a href="javascript:;">果香调</a>
+						<input type="checkbox"><a href="javascript:;">美白</a>
+						<input type="checkbox"><a href="javascript:;">去角质</a>
+				
+						<input type="checkbox"><a href="javascript:;">修饰肤色</a>
+						<input type="checkbox"><a href="javascript:;">舒缓肌肤</a>
+						<input type="checkbox"><a href="javascript:;">祛痘</a>
+						<input type="checkbox"><a href="javascript:;">提亮</a>
+						<input type="checkbox"><a href="javascript:;">去黑眼圈</a>
+						<input type="checkbox"><a href="javascript:;">控油</a>
+						<input type="checkbox"><a href="javascript:;">淡香水</a>
+						<input type="checkbox"><a href="javascript:;">祛斑祛痘</a>
+						<input type="checkbox"><a href="javascript:;">隔离</a>
+			
+						<input type="checkbox"><a href="javascript:;">防晒</a>
+						<input type="checkbox"><a href="javascript:;">滋润</a>
+						<input type="checkbox"><a href="javascript:;">花香调</a>
+						<input type="checkbox"><a href="javascript:;">抗皱</a>
+						<input type="checkbox"><a href="javascript:;">香气持久</a>
+							<p><input type="button" class="button confirm" value="确定"><input type="button" class="button cancel" value="取消"></p>
+						</dd>
+						
+					</dl>
+					<div>
+						<a href="javascript:;" class="select_more" id="click_more2"><span>+</span>多选</a>
+						<a href="javascript:;" class="more" id="more1"><span></span>更多</a>
+					</div>
+				</li>
+				<li>
+					<dl  class="classify1">
+						<dt>地区:</dt>
+						<dd id="change3"><input type="checkbox"><a href="javascript:;">韩国</a>
+						<input type="checkbox"><a href="javascript:;">日本</a>
+						<input type="checkbox"><a href="javascript:;">欧美</a>
+						<input type="checkbox"><a href="javascript:;">港台</a>
+						<input type="checkbox"><a href="javascript:;">东南亚</a>
+						<p><input type="button" class="button confirm" value="确定"><input type="button cancel" class="button" value="取消"></p>
+						</dd>
+						
+					</dl>
+					<div>
+						<a href="javascript:;" class="select_more" id="click_more3"><span>+</span>多选</a>
+						
+					</div>
+				</li>
+				<li>
+					<dl class="classify1">
+						<dt>品牌:</dt>
+						<dd  id="change4"><input type="checkbox"><a href="">Innisfree</a>
+						<input type="checkbox"><a href="javascript:;">Revlon</a>
+						<input type="checkbox"><a href="javascript:;">Shiseido资生堂</a>
+						<input type="checkbox"><a href="javascript:;">ETUDE HOUSE</a>
+						<input type="checkbox"><a href="javascript:;">the same</a>
+						<input type="checkbox"><a href="javascript:;">KAO花王</a>
+						<input type="checkbox"><a href="javascript:;">科颜氏</a>
+						<input type="checkbox"><a href="javascript:;">Skin Food</a>
+						<input type="checkbox"><a href="javascript:;">mistine</a>
+						<input type="checkbox"><a href="javascript:;">3ce</a>
+						<input type="checkbox"><a href="javascript:;">the body shop</a>
+						<input type="checkbox"><a href="javascript:;">kans</a>
+						<input type="checkbox"><a href="javascript:;">AHC</a>
+						<input type="checkbox"><a href="javascript:;">KATE</a>
+						<input type="checkbox"><a href="javascript:;">DHC</a>
+						<input type="checkbox"><a href="javascript:;">MZINE</a>
+						<input type="checkbox"><a href="javascript:;">MUJI</a>
+						<input type="checkbox"><a href="javascript:;">ELF</a>
+						<input type="checkbox"><a href="javascript:;">pf79</a>
+						<input type="checkbox"><a href="javascript:;">Kanebo</a>
+						<input type="checkbox"><a href="javascript:;">CANMAKE</a>
+						<input type="checkbox"><a href="javascript:;">CLIO</a>
+						<input type="checkbox"><a href="javascript:;">理肤泉</a>
+						<input type="checkbox"><a href="javascript:;">吕</a>
+						<input type="checkbox"><a href="javascript:;">兰芝</a>
+						<input type="checkbox"><a href="javascript:;">卡姿兰</a>
+						<input type="checkbox"><a href="javascript:;">美宝莲</a>
+						<input type="checkbox"><a href="javascript:;">御泥坊</a>
+						<input type="checkbox"><a href="javascript:;">狮王</a>
+						<input type="checkbox"><a href="javascript:;">百雀羚</a>
+						<input type="checkbox"><a href="javascript:;">丹姿</a>
+						<input type="checkbox"><a href="javascript:;">巴宝莉</a>
+						<input type="checkbox"><a href="javascript:;">膜法世家</a>
+						<input type="checkbox"><a href="javascript:;">佰草集</a>
+						<input type="checkbox"><a href="javascript:;">SK2</a>
+						<input type="checkbox"><a href="javascript:;">VDL</a>
+						<input type="checkbox"><a href="javascript:;">SNP</a>
+						<input type="checkbox"><a href="javascript:;">beyound</a>
+						<input type="checkbox"><a href="javascript:;">Fresh</a>
+						<input type="checkbox"><a href="javascript:;">Origins</a>
+						<input type="checkbox"><a href="javascript:;">Dior</a>
+						<input type="checkbox"><a href="javascript:;">Curel</a>
+						<p><input type="button" class="button confirm" value="确定">
+						<input type="button" class="button cancel" value="取消"></p>
+						</dd>
+					</dl>
+					<div>
+						<a href="javascript:;" class="select_more" id="click_more4"><span>+</span>多选</a>
+						<a href="javascript:;" class="more" id="more2"><span></span>更多</a>
+					</div>
+				</li>
+				<li >
+					<dl class="classify1">
+						<dt>价格:</dt>
+						<dd id="change5">
+							<input type="checkbox"><a href="javascript:;">0-50</a>
+							<input type="checkbox"><a href="javascript:;">50-100</a>
+							<input type="checkbox"><a href="javascript:;">100-500</a>
+							<input type="checkbox"><a href="javascript:;">500以上</a>
+							<p><input type="button" class="button confirm" value="确定"><input type="button" class="button cancel" value="取消"></p>
+						</dd>
+					</dl>
+					<div>
+						<a href="javascript:;" class="select_more" id="click_more5"><span>+</span>多选</a>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="sort">
+			<ul>
+				<li>排序：</li>
+				<li class="sort"><a href="javascript:;">默认</a><span></span></li>
+				<li class="sort"><a href="javascript:;">价格</a><span></span></li>
+				<li class="sort"><a href="javascript:;">销量</a><span></span></li>
+				<li class="sort"><a href="javascript:;">人气</a><span></span></li>
+				<li><a href="">上架时间</a><span></span></li>
+				<li><input type="checkbox"><a href="">只看有货</a></li>
+			</ul>
+		</div>
+		<div id="list" class="clear">
+			<!-- <dl class="new1">
+				<dt>
+					<img src="../img/new25.jpg" alt="">
+					<span><b>加入购物车</b><i></i></span>
+				</dt>
+				<dd>
+					<h3 class="clear">
+						<em>￥</em><b>76.00</b><span>￥168.00</span><i>61人收藏</i>
+					</h3>
+					<p><span>4折/</span><a href="">[美国 · 让你跟脱妆说拜拜] Revlon 露华浓不脱色粉底液110</a></p>
+				</dd>
+			</dl>
+			<dl class="new1">
+				<dt>
+					<img src="../img/new26.jpg" alt="">
+					<span><b>加入购物车</b><i></i></span>
+				</dt>
+				<dd>
+					<h3 class="clear">
+						<em>￥</em><b>86.00</b><span>￥118.00</span><i>76人收藏</i>
+					</h3>
+					<p><span>4折/</span><a href="">[美国 · 让你跟脱妆说拜拜] Revlon 露华浓不脱色粉底液110</a></p>
+				</dd>
+			</dl>
+			<dl class="new1">
+				<dt>
+					<img src="../img/new27.jpg" alt="">
+					<span><b>加入购物车</b><i></i></span>
+				</dt>
+				<dd>
+					<h3 class="clear">
+						<em>￥</em><b>77.00</b><span>￥199.00</span><i>65人收藏</i>
+					</h3>
+					<p><span>4折/</span><a href="">[美国 · 让你跟脱妆说拜拜] Revlon 露华浓不脱色粉底液110</a></p>
+				</dd>
+			</dl>
+			<dl class="d-right new1">
+				<dt>
+					<img src="../img/new22.jpg" alt="">
+					<span><b>加入购物车</b><i></i></span>
+				</dt>
+				<dd>
+					<h3 class="clear">
+						<em>￥</em><b>30.00</b><span>￥77.00</span><i>51人收藏</i>
+					</h3>
+					<p><span>4折/</span><a href="">[美国 · 让你跟脱妆说拜拜] Revlon 露华浓不脱色粉底液110</a></p>
+				</dd>
+			</dl>
+			 -->
+
+		</div>
+		<div id="pageToolbar" class ="pagination"></div>
+	</div>
+	<div id="footer">
+
+	</div>
+	<div id="lcart">
+
+	</div>
+	<script src="../libs/sea.js"></script>
+	<script>
+	seajs.config({
+		alias:{
+			"jq":'jquery-1.11.3',
+			"paging":'jquery.pagination',
+			"cookie":'jquery.cookie'
+		}
+	});
+			seajs.use('../scripts/list')
+
+	</script>
+</body>
+</html>

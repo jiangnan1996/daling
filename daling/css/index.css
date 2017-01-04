@@ -1,0 +1,160 @@
+
+/*----------------------------------------------main-----------------------------------*/
+#main{position: relative;}
+
+
+/*--------------------------------------------------banner---------------------------------------*/
+.banner{height: 480px;position: relative;}
+.banner_position{position: relative;width: 1200px;margin:0 auto;} 
+#banner li{width: 100%;position: absolute;font-size: 0}
+#banner .banner1{background: #5BD7F9}
+#banner .banner2{background: #DFD9DD}
+#banner .banner3{background: #D1A38C}
+#banner .banner4{background: #FFD630}
+#banner a{max-width: 1200px;margin: 0 auto;display: block;}
+#banner img{width: auto;margin: 0 auto;height: 480px}
+#banner_select{position: absolute;left: 650px;top:420px;}
+#banner_select li{float: left;width: 20px ;height: 20px;border-radius: 20px;background: rgba(0,0,0,.3);text-align:center;margin:5px;line-height: 20px;}
+#banner_select li a{color: #FFF}
+#banner_select li:hover{background: rgba(0,0,0,.5)}
+#banner_select li:hover a{text-decoration: underline;}
+
+/*-----------------------------------------------list---------------------------------*/
+.list{background: #F9F9F9;width: 100%}
+.goods{width: 1200px;margin: 0 auto;padding-top:90px;position: relative; }
+.goods .findgood{width: 430px;height: 1px;background: #676767;margin:0 auto;}
+.goods p{position: absolute;top: 68px;left: 525px;background: #F9F9F9;font-size: 30px;width: 150px;text-align: center;}
+.see_tody{width: 1200px;margin:0 auto;}
+.list h2{padding-top: 34px;padding-bottom: 14px;font-size: 16px;height: 32px;line-height: 32px;}
+.list h2 i{font-size: 14px;margin-left: 20px;}
+.list h2 span{height: 32px;margin-right: 10px;display: inline-block;vertical-align: middle;}
+.see_tody li{float: left;width: 590px;height: 280px}
+.see_tody li a{font-size: 0}
+.see_tody li img{transition: transform 0.4s}
+.see_tody li img:hover{transform: scale(1.05,1.05)}
+.see_tody .see_left{margin-right: 20px}
+.see_tody li a{font-size: 0}
+/*-----------------------------------------------new---------------------------------*/
+.list_new{width: 1200px;margin:0 auto;}
+.list_new h2 p{display: inline-block;float: right;margin-right: 40px;height: 30px;width: 90px;background: #e14958}
+.list_new h2 p a{color: #FFF;font-size: 12px;font-weight: normal;display: inline-block;height: 20px;width: 70px;padding: 5px 10px;line-height: 20px}
+.list_new h2 p a:hover{text-decoration: underline;}
+.list_new h2 p span{display: inline-block;width: 23px;height: 24px;vertical-align: middle;background: url(../img/ico.png) -1px -136px;margin-right: 0;margin-left: 10px}
+.list_new .new1{width: 283px;height: 378px;border: 1px solid #e5e5e5;float: left;margin-right: 20px}
+.list dl{background-color: #FFF;margin-bottom: 20px}
+.list dl:hover{box-shadow: 0 0 10px 2px #b6b6b6}
+.list .new1 dt{height: 268px;position: relative;overflow: hidden;font-size: 0}
+.list dt img{height: 100%;width: 100%}
+.list dt span{position: absolute;cursor: pointer;bottom: -30px;left: 0;height: 30px;display: inline-block;color: #FFF;background: rgb(158,118,181);text-align: center;width: 100%}
+.list dt span i{display: inline-block;width: 20px;height: 30px;background: url(../img/ico.png) no-repeat 0 -80px;float: left;}
+.list dt span b{display: inline-block;height: 30px;line-height: 30px;float: left;margin-left: 100px;font-size: 12px}
+.list .new1 dd{padding: 8px 26px 0}
+.list dd h3{padding-bottom: 15px}
+.list dd h3 span{font-size: 10px;text-decoration: line-through;float: left;margin-top: 4px}
+.list dd h3 b{color: #e2706c;font-size: 18px;float: left;}
+.list dd h3 em{color: #e2706c;font-size: 10px;float: left;margin-top: 4px}
+.list dd h3 i{font-size: 10px;float: right;margin-top: 4px}
+.list dd p span{color: #e2706c}
+.list dd p a:hover{text-decoration: underline;}
+.list .new2{width: 588px;height: 240px;border: 1px solid #e5e5e5;float: left;margin-right: 20px;}
+.list .new2 dt{height: 240px;position: relative;overflow: hidden;width: 283px;float: left;font-size: 0}
+.list .new2 dd{padding: 80px 24px 0 50px;float: left;width: 230px}
+.list .d-right{margin-right: 0}
+/*-----------------------------------------------worth_buy---------------------------------*/
+.worth_buy{width: 1200px;margin:0 auto;}
+.worth_buy h4{background: url(../img/ico-title-1.png) no-repeat 0 6px;font-size: 16px;text-indent: 20px;margin:10px 35px;}
+.worth_buy .Global ul{padding: 42px 40px;background: #FFF}
+.worth_buy .Global ul li{float: left;margin-right: 20px}
+.worth_buy .Global ul .l-right{margin-right: 0}
+.worth_buy .Global ul li a{display: inline-block;font-size: 0}
+.worth_buy .Global ul li a:hover{box-shadow: 2px 2px 10px #b6b6b6}
+.worth_buy .goodtab{padding-top: 42px;border-bottom: 1px solid #e5e5e5;height: 30px;line-height: 30px;padding-left: 36px;background: #FFF}
+.worth_buy .goodtab li{float: left;margin-left: 10px;padding: 0 12px;font-size: 16px;border: 1px solid #e5e5e5;border-bottom: none;height: 29px;line-height:29px;cursor: pointer; }
+.worth_buy .goodtab ul .active{border: 1px solid #e14958;background-color: #e14958;color: #FFF}
+#good-list{background: #FFF;padding-top: 40px}
+.list .goodlist1{width: 280px;overflow: hidden;margin-left: 100px;border: 1px solid #fff;float: left;}
+.list .goodlist1 dt{height: 280px;font-size: 0;position: relative;overflow: hidden;}
+.list .goodlist1 dd{padding: 10px}
+.list .goodlist1 dd .comment{border-radius: 25px;background:rgba(240,232,139,.7);margin:10px auto 0;padding: 5px 0 0 5px}
+.list .goodlist1 dd .comment span img{width: 35px;height: 35px;display: inline-block;float: left;border-radius: 50%;}
+.list .goodlist1 dd .comment .comment-text{float: left;width: 180px;line-height: 20px}
+.list .goodlist1 dd .comment .comment-text p{white-space:nowrap;overflow: hidden;text-overflow: ellipsis;width: 180px  }
+
+
+
+
+.repeat-buy{width: 1200px;margin:0 auto;}
+.repeat-buy #Accordion{width: 1170px;background: #FFF;padding: 15px}
+#beauty{position: relative;float: left;}
+#life{float: left;}
+#snacks{float: left;}
+#Accordion .title{width: 390px;height: 47px;line-height: 47px;text-align: center;color: #e14958;font-size: 16px}
+#Accordion .beauty1{width: 346px;height: 175px;padding: 38px 20px 10px;border-top: 1px solid #eee;position: relative;margin-bottom: 0}
+#Accordion .beauty1 dt{width: 166px;height: 166px;float: left;}
+#Accordion .beauty1 dt .first{display: inline-block;width: 70px;height: 20px;line-height: 20px;text-align: center;background: #e14958;color: #FFF;position: absolute;left: 0;top: 0}
+#Accordion .beauty1 dt .second{display: inline-block;width: 70px;height: 20px;line-height: 20px;text-align: center;background: #c6c6c6;color: #FFF;position: absolute;left: 0;top: 0}
+#Accordion .beauty1 dd{float: left;width: 160px;padding: 0 10px}
+#Accordion .beauty1 dd h6{color: #b6b6b6;}
+#Accordion .beauty1 dd h6 a{color: #b6b6b6;}
+#Accordion .beauty1 dd h6 a:hover{text-decoration: underline;}
+#Accordion .beauty1 dd p{padding-bottom: 20px}
+#Accordion .active{height: 50px;padding: 0;width: 386px}
+#Accordion .active dt{height: 50px;width: 50px;margin-left: 80px}
+#Accordion .active dd{overflow: hidden;width: 220px;overflow: hidden;height: 50px}
+#Accordion .active dd p{height: 50px;line-height: 50px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+
+.Darkhorse{width: 1200px;margin:0 auto;}
+#Darkhorse_list{background: #FFF;padding-top: 40px}
+
+
+.goods .sale{width: 230px;left:480px;}
+#purchaseleft{float: left;}
+.purchase .purchaseleft1{width: 786px;height: 282px;}
+.purchase .purchaseleft1 dt{width: 492px;height: 280px;float: left;}
+
+.purchase .purchaseleft1 dd{width: 242px;height: 280px;float: left;padding: 0 25px}
+.purchase .purchaseleft1 dd .timeout{width: 194px;height: 26px;margin:0 auto;color: #FFF;background: #000;text-align: center;font-size: 14px;font-weight: 900;line-height: 26px;margin-bottom: 20px;}
+.purchase dd h6{color: #b6b6b6;margin:20px 0 80px;}
+.purchase .purchaseleft1 dd .immediately_buy p{float: left;background: #e14958;}
+.purchase .purchaseleft1 dd .immediately_buy p a{display: inline-block;width: 140px;height: 38px;color: #FFF;line-height: 38px;text-align: center;font-size: 16px}
+.purchase .purchaseleft1 dd .immediately_buy i{display: inline-block;float: left;height: 38px;line-height: 38px;margin-left: 35px}
+.more{width: 784px;height: 26px;border: 1px solid #e0e0e0;text-align: center;cursor: pointer;line-height: 26px;background: #f3f3f3;margin-bottom: 50px}
+
+#purchaseright{float: left;margin-left: 25px;width: 386px;height: 1075px;overflow: hidden;}
+.purchaseright>p{text-align: center;margin-bottom:15px;}
+.purchaseright>p span{font-size: 18px;}
+.purchaseright1{width: 386px;height: 195px;}
+
+.purchase .purchaseright1 dt{width: 236px;height: 193px;float: left;}
+
+
+.purchase .purchaseright1 dd{width: 120px;height: 188px;float: left;padding: 18px 15px 0}
+.purchase .purchaseright1 dd h6{height: 70px;overflow: hidden;margin:20px 0;line-height: 17px}
+.purchase .purchaseright1 dd .immediately_cart span{display: inline-block;width: 16px;height: 20px;background: url(../img/ico.png) -23px 2px;float: left;}
+.purchase .purchaseright1 dd .immediately_cart span:hover{background: url(../img/ico.png) 0 2px}
+.purchase .purchaseright1 dd .immediately_cart i{display: inline-block;float: left;height: 20px;line-height: 20px;margin:0 2px;}
+.purchase .purchaseright1 dd .immediately_cart p{float: left;background: #e14958;}
+.purchase .purchaseright1 dd .immediately_cart p a{width: 75px;height: 20px;display: inline-block;color: #FFF;line-height: 20px;text-align: center;}
+#pre{width: 20px;height: 16px;float: left;margin-left: 200px;margin-right: 20px;background: url(../img/ico_arrow.png) -29px -4px;cursor: pointer;}
+#next{width: 20px;height: 16px;float: left;background: url(../img/ico_arrow.png) 0 -4px;cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

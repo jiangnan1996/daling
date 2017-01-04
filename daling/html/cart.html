@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车结算</title>
+	<link rel="stylesheet" href="../css/same.css">
+	<link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+	<div id="header">
+		<div class="header_login">
+			<div class="header_inner">
+				<p class="inner_left"><a href="javascript:;">消费者通知书</a></p>
+				<p class="inner_right">
+					<a href="javascript:;" id="username">登录</a>|
+					<a href="login.html">注册</a>|
+					<span><i></i>400-080-1888</span>|
+					<a href="javascript:;">下载达令app</a>
+				</p>
+				<div class="header_register" id="header_register">
+					注册即得 新人专享优惠券
+					<a href="javascript:;" id="close"></a>
+				</div>
+			</div>
+		</div>
+		<div id="title" class="clear">
+			<h1><img src="../img/logo.png" alt=""></h1>
+			<div class="process"><img src="../img/cart1.png" alt=""></div>
+		</div>
+	</div>
+	<div id="main">
+		<ul class="goods_title">
+			<li>
+				<input type="checkbox" class="allclick">
+				全选
+			</li>
+			<li class="goods">商品名称</li>
+			<li>单价(元)</li>
+			<li>数量</li>
+			<li>小计(元)</li>
+			<li>操作</li>
+		</ul>
+		<div id="list">
+			 <ul class="cart_goods clear">
+				<li><input type="checkbox"><div class="img"><img src="../img/move10.jpg" alt=""></div></li>
+				<li class="goods">新款韩版百搭修身显瘦毛边流苏牛仔裤微喇裤图片色(29)</li>
+				<li class="price">118.00</li>
+				<li> <div class="cut">-</div><div class="sums">1</div><div class="add">+</div></li>
+				<li class="Total_price"><span class="Total_price1">118</span>.00</li>
+				<li class="delete">删除</li>
+				
+			</ul>
+		</div>
+		<ul id="Settlement" class="clear">
+			<li><input type="checkbox" class="allclick">全选</li>
+			<li class="goods">删除选中的商品</li>
+			<li>转到我的收藏</li>
+			<li>已选中<span id="num1">0</span>件商品</li>
+			<li>总金额:<i><span class="Total">00</span>.00</i></li>
+			<li class="goSettlement">去结算</li>
+		</ul>
+	</div>
+	<div id="footer">
+
+	</div>
+	<script src="../libs/sea.js"></script>
+	<script>
+	seajs.config({
+		alias:{
+			"jq":'jquery-1.11.3',
+			"paging":'jquery.pagination',
+			"cookie":'jquery.cookie'
+		}
+	});
+			seajs.use('../scripts/cart1')
+
+	</script>
+</body>
+</html>

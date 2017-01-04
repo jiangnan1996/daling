@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/same.css">
+	<link rel="stylesheet" href="../css/active.css">
+	<link rel="stylesheet" href="../css/pagination.css">
+</head>
+<body>
+	<div id="head"></div>
+	<div id="main">
+		<div class="bg">
+			<div class="img">
+				<a href="#"><img src="../img/active1.jpg" alt=""></a>
+			</div>
+		</div>
+		<div class="timeout">
+			<!-- 距闪购结束
+			<span>15</span><i>:</i><span>14</span><i>:</i><span>13</span> -->
+		</div>
+		<div id="list1">
+			<div id="list" class="clear">
+				
+			</div>
+		<div id="pageToolbar" class ="pagination"></div></div>
+	</div>
+	<div id="footer"></div>
+	<div id="a_cart"></div>
+	<script src="../libs/sea.js"></script>
+	<script>
+	seajs.config({
+		alias:{
+			"jq":'jquery-1.11.3',
+			"paging":'jquery.pagination',
+			"cookie":'jquery.cookie'
+		}
+	});
+			seajs.use('../scripts/active')
+
+	</script>
+</body>
+</html>
